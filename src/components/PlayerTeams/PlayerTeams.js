@@ -3,7 +3,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { useHistory } from 'react-router';
-import { Link } from 'react-router-dom';
+
 
 const PlayerTeams = (props) => {
     const { idTeam, strTeamBadge, strLeague, strSport } = props.playerTeam;

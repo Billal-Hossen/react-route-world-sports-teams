@@ -1,13 +1,13 @@
 import React from 'react';
-import { Button, Container, Form, FormControl, Nav, Navbar, NavbarBrand } from 'react-bootstrap';
+import { Button, Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
-import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
+
 import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div>
-          
+
             <Navbar bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand as={Link} to="/">Teams</Navbar.Brand>
@@ -25,7 +25,7 @@ const Header = () => {
                     </NavbarCollapse>
                 </Container>
             </Navbar>
-            <img className="media-image w-100 h-25" src={process.env.PUBLIC_URL + "/bg.jpg"}  alt="" />
+            <img className="media-image w-100 h-25" src={process.env.PUBLIC_URL + "/bg.jpg"} alt="" />
         </div>
     );
 };

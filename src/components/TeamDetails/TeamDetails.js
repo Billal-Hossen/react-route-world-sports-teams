@@ -68,11 +68,11 @@ const TeamDetails = () => {
 
             <div className="media  mx-auto d-block m-3  w-25">
 
-                <a target='_blank' href={`https://${selectTeam.strTwitter}`}>  <span  ><FontAwesomeIcon className='media-image text-success fa-5x' icon={faTwitter} /></span></a>
+                <a  href={`https://${selectTeam.strTwitter}`}>  <span  ><FontAwesomeIcon className='media-image text-success fa-5x' icon={faTwitter} /></span></a>
 
-                <a target='_blank' href={`https://${selectTeam.strFacebook}`}> <span > <FontAwesomeIcon className=' media-image text-info fa-5x ml-3 mr-3' icon={faFacebook} /></span></a>
+                <a  href={`https://${selectTeam.strFacebook}`}> <span > <FontAwesomeIcon className=' media-image text-info fa-5x ml-3 mr-3' icon={faFacebook} /></span></a>
 
-                <a target='_blank' href={`https://${selectTeam.strYoutube}`}> <span as={Link} to={selectTeam.strYoutube}><FontAwesomeIcon className='fa-5x media-image text-danger' icon={faYoutube} /></span></a>
+                <a  href={`https://${selectTeam.strYoutube}`}> <span as={Link} to={selectTeam.strYoutube}><FontAwesomeIcon className='fa-5x media-image text-danger' icon={faYoutube} /></span></a>
                 {/* <img className="media-image" src={process.env.PUBLIC_URL + "/y.jpg"} width="70px"  alt="" />
                             <img className="media-image" src={process.env.PUBLIC_URL + "/ttt.png"} width="70px"  alt=""/>
                             <img className="media-image" src={process.env.PUBLIC_URL + "/fb.png"} width="50px" alt=""  /> */}

@@ -1,13 +1,12 @@
 
 import './App.css';
-import { FaArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+ 
 } from "react-router-dom";
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
