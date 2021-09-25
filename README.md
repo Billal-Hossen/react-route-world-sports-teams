@@ -1,5 +1,5 @@
 # Project Live link
-https://app.netlify.com/sites/peaceful-booth-97abac/deploys/604a5501cd08dc0712476f3a
+https://604a5501cd08dc0712476f3a--peaceful-booth-97abac.netlify.app/
 # Project code Link
 https://github.com/Porgramming-Hero-web-course/react-router-Billal-Hossen
 
